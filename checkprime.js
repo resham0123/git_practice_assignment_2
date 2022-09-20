@@ -1,13 +1,16 @@
 let num=13;
-let count=0;
-for(let i=1; i<=num; i++){
-if(num%i==0){
-count++;
+function checkprime(num){
+let factors=0;
+	for(let i=1; i<=num; i++){
+		if(num%i==0){
+		c++;
+		}
+ 	}
+return factors;
 }
- }
-if(count==2){
-console.log("Not Prime");
+if(checkprime(num)==2){
+console.log("Prime");
 }
 else{
-console.log("Prime");
+console.log("Not a Prime");
 }
